@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Register Pages</title>
+  </head>
+  <body>
+    <section class="bg-gray-200 min-h-screen flex items-center justify-center">
+      <!-- Register Container -->
+      <div
+        class="bg-slate-200 flex rounded-2xl shadow-lg max-w-3xl p-5 items-center"
+      >
+        <div class="w-full md:w-1/2 py-10 px-8 md:px-12">
+          <h2 class="font-bold text-3xl mb-4 border-2">Register</h2>
+          <p class="mb-4">
+            Create your account. It’s free and only take a minute
+          </p>
+          <!-- Form Register -->
+          <form action="#">
+            <div class="grid grid-cols-2 gap-2">
+              <input
+                type="text"
+                placeholder="Firstname"
+                class="border rounded-xl border-gray-400 py-1 px-2"
+              />
+              <input
+                type="text"
+                placeholder="Lastname"
+                class="border rounded-xl border-gray-400 py-1 px-1"
+              />
+            </div>
+            <div class="mt-5">
+              <input
+                type="text"
+                placeholder="Email"
+                class="border rounded-xl border-gray-400 py-1 px-2 w-full"
+              />
+            </div>
+            <div class="mt-5">
+              <input
+                type="password"
+                placeholder="Password"
+                class="border rounded-xl border-gray-400 py-1 px-2 w-full"
+              />
+            </div>
+            <div class="mt-5">
+              <input
+                type="password"
+                placeholder="Confirm Password"
+                class="border rounded-xl border-gray-400 py-1 px-2 w-full"
+              />
+            </div>
+          </form>
+          <!-- Form Register End -->
+          <!-- Footer -->
+          <div class="mt-5 text-sm">
+            <input type="checkbox" class="border border-gray-400" />
+            <span>
+              I accept the<a href="#" class="text-[#52B4A4] font-semibold"
+                >Terms of Use</a
+              >
+              &
+              <a href="#" class="text-[#52B4A4] font-semibold"
+                >Privacy Policy</a
+              >
+            </span>
+          </div>
+          <div class="mt-5">
+            <button
+              class="w-full bg-[#52B4A4] rounded-xl py-2 text-center text-white hover:scale-110 duration-300"
+            >
+              Register Now
+            </button>
+            <button
+              class="w-full rounded-xl text-white bg-[#52B4A4] py-2 text-center mt-3 hover:scale-110 duration-300 "
+            >
+              <a href="login.html" onclick="btnLogin()">Login Pages</a>
+            </button>
+          </div>
+        </div>
+        <!-- Footer End-->
+        <!-- Image -->
+        <div class="md:block hidden w-1/2">
+          <img class="rounded-2xl" src="../assets/images/login.png" />
+        </div>
+        <!-- Images End -->
+      </div>
+      <!-- Register Container End -->
+      <script src="../src/javascript/main.js"></script>
+    </section>
+  </body>
+</html>
